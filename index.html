@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afdhol Cafe</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- Site Header -->
+          <div class="header">
+            <i class="fas fa-coffee fa-3x logo"></i>
+            <h1 class="name">Afdhol Cafe</h1>
+          </div>
+          <nav>
+            <ul class="nav-ul">
+              <li class="page-nav-item">
+                <a href="#drink" class="page-link active">
+                  <i class="fas fa-mug-hot page-link-icon"></i>
+                  <span>Drink Menu</span>
+                </a>
+                <a href="#special" class="page-link">
+                  <i class="fas fa-glass-martini page-link-icon"></i>
+                  <span>Special</span>
+                </a>
+                <a href="#contact" class="page-link">
+                  <i class="fas fa-comments page-link-icon"></i>
+                  <span>Contact</span>
+                  <a href="https://www.instagram.com/yahymhmmd/" class="page-link">
+                    <i class="fab fa-instagram-square page-link-icon"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://m.facebook.com/profile.php?id=100034201756468" class="page-link">
+                    <i class="fab fa-facebook-square page-link-icon"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="https://twitter.com/yahymhmmd" class="page-link">
+                    <i class="fab fa-twitter-square page-link-icon"></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=6285228559909&text=Selamat Datang di Yox Cafe" class="page-link">
+                  <i class="fab fa-whatsapp-square page-link-icon"></i>
+                  <span>WhatsApp</span>
+              </a>
+              <a href="https://www.youtube.com/" class="page-link">
+                  <i class="fab fa-youtube-square page-link-icon"></i>
+                  <span>YouTube</span>
+              </a>
+              <a href="https://www.google.com/maps/" class="page-link">
+                    <i class="fas fa-map page-link-icon"></i>
+                    <span>Maps</span>
+                </a>
+                <a onclick="toggleTheme('dark');" class="page-link">
+                    <i class="fa fa-sun page-link-icon"></i>
+                    <span>Light</span>
+                </a>
+                <a onclick="toggleTheme('light');" class="page-link">
+                    <i class="fa fa-moon page-link-icon"></i>
+                    <span>Dark</span>
+                </a>
+          </nav>
+      <div>
+        <main class="main">
+          <div id="drink" class="page-content">
+            <!-- Drink Menu Page -->
+            <nav class="black-bg drinks-nav">
+              <ul>
+                <li>
+                  <a href="#cold" class="tab-link active">Iced Coffee</a>
+                </li>
+                <li>
+                  <a href="#hot" class="tab-link">Hot Coffee</a>
+                </li>
+                <li>
+                  <a href="#juice" class="tab-link">Fruit Juice</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div id="cold" class="tab-content">
+              <div class="list">
+                <div class="list-item">          
+                  <img src="img/iced-americano.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Iced Americano<span class="list-item-price">$10.25</span></h3>
+                    <p class="list-item-description">Ice Americano cocok untuk Anda yang sedang diet karena rendah kalori.</p>
+                  </div>
+                </div>
+                <div class="list-item">          
+                  <img src="img/iced-cappuccino.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Iced Cappuccino<span class="list-item-price">$12.50</span></h3>
+                    <p class="list-item-description">Ice Cappuccino biasanya cocok untuk dinikmati saat cuaca panas.</p>
+                  </div>
+                </div>
+                <div class="list-item">          
+                  <img src="img/iced-espresso.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Iced Espresso<span class="list-item-price">$14.25</span></h3>
+                    <p class="list-item-description">Iced Espresso ini cocok buat wanita yang nggak suka kopi pahit.</p>
+                  </div>
+                </div>
+                <div class="list-item">          
+                  <img src="img/iced-latte.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Iced Latte<span class="list-item-price">$11.50</span></h3>
+                    <p class="list-item-description"><a href="https://www.kompas.com/food/read/2022/04/14/102800275/resep-iced-latte-ala-kafe-untuk-buka-puasa-cuma-butuh-3-bahan" rel="nofollow" target="_parent">Iced latte</a> atau kopi susu ocok dijadikan minuman untuk buka puasa nanti.</p>
+                  </div>
+                </div>                    
+              </div>
+            </div> 
+
+            <div id="hot" class="tab-content">
+              <div class="list">
+              
+                <div class="list-item">          
+                  <img src="img/hot-americano.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Hot Americano<span class="list-item-price">$8.50</span></h3>
+                    <p class="list-item-description">Hot Americano, cocok buat temen ngopi sore ini sambil cerita ...</p>              
+                  </div>
+                </div>
+                <div class="list-item">          
+                  <img src="img/hot-cappuccino.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Hot Cappuccino<span class="list-item-price">$9.50</span></h3>
+                    <p class="list-item-description">Hot Cappucino cocok untuk menemani waktu santai dan istirahat kamu hari ini.</p>                    
+                  </div>
+                </div>
+                <div class="list-item">          
+                  <img src="img/hot-espresso.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Hot Espresso<span class="list-item-price">$7.50</span></h3>
+                    <p class="list-item-description">Hot Espresso Hadir dengan rasa kopi yang nikmat cocok untuk anda ... </p>              
+                  </div>
+                </div>
+                <div class="list-item">          
+                  <img src="img/hot-latte.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Hot Latte<span class="list-item-price">$6.50</span></h3>
+                    <p class="list-item-description">hot Latte, cocok buat temen ngopi sore ini sambil cerita - cerita tentang apa saja.</p>              
+                  </div>
+                </div>              
+              </div>
+            </div>
+
+            <div id="juice" class="tab-content">
+              <div class="list">
+                <div class="list-item">          
+                  <img src="img/smoothie-1.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Strawberry Smoothie<span class="list-item-price">$12.50</span></h3>
+                    <p class="list-item-description">Dengan sensasi menyegarkan ini cocok untuk dijadikan teman minum di pagi ataupun sore hari.</p>              
+                  </div>
+                </div>
+                <div class="list-item">          
+                  <img src="img/smoothie-2.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Red Berry Smoothie<span class="list-item-price">$14.50</span></h3>
+                    <p class="list-item-description">Red Berry Smoothie cocok untuk makan pagi makan siang.</p>                    
+                  </div>
+                </div>
+                <div class="list-item">          
+                  <img src="img/smoothie-3.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Pineapple Smoothie<span class="list-item-price">$16.50</span></h3>
+                    <p class="list-item-description">Pineapple Smoothie yang  sehat dan menyegarkan, cocok untuk diet</p>              
+                  </div>
+                </div>
+                <div class="list-item">          
+                  <img src="img/smoothie-4.png" alt="Image" class="list-item-img">
+                  <div class="black-bg list-item-text">
+                    <h3 class="list-item-name">Spinach Smoothie<span class="list-item-price">$18.50</span></h3>
+                    <p class="list-item-description">Spinach Smoothie cocok untuk mereka yang sedang berjerawat</p>              
+                  </div>
+                </div>              
+              </div>
+            </div>
+            <!-- end Drink Menu Page -->
+          </div>
+
+          <!-- Header -->
+          <div id="special" class="nav-a">
+            <i class="fas fa-glass-martini fa-2x logo"></i>
+            <h1 class="name">Special</h1>
+          </div>
+          
+          <!-- Special Items Page -->
+          <div class="page-content">
+            <div class="special-items">
+              <div class="black-bg special-item">
+                <img src="img/special-01.jpg" alt="Image">
+                <div class="special-item-description">
+                  <h2 class="text-primary special-item-title">Orange Mango Soda</h2>
+                  <p class="special-item-text">Cocok dihidangkan saat dalam kondisi dingin, untuk menu berbuka puasa.</p>  
+                </div>
+              </div>
+              <div class="black-bg special-item">
+                <img src="img/special-02.jpg" alt="Image">
+                <div class="special-item-description">
+                  <h2 class="text-primary special-item-title">Croissant</h2>
+                  <p class="special-item-text">Croissant disantap sebagai menu sarapan pagi hari, tetapi cocok juga dijadikan camilan untuk teman minum kopi atau minum teh.</p>  
+                </div>
+              </div>
+              <div class="black-bg special-item">
+                <img src="img/special-03.jpg" alt="Image">
+                <div class="special-item-description">
+                  <h2 class="text-primary special-item-title">Burger</h2>
+                  <p class="special-item-text">Kamu dapat menikmati burger lezat melalui menu yang cocok untuk vegetarian.</p>  
+                </div>
+              </div>
+              <div class="black-bg special-item">
+                <img src="img/special-04.jpg" alt="Image">
+                <div class="special-item-description">
+                  <h2 class="text-primary special-item-title">Spaghetti</h2>
+                  <p class="special-item-text">Cocok sebagai pilihan alternatif pengganti nasi, Banyak yang mengonsumsi spaghetti atau jenis pasta lainnya saat diet.</p>  
+                </div>
+              </div>      
+              <div class="black-bg special-item">
+                <img src="img/special-05.jpg" alt="Image">
+                <div class="special-item-description">
+                  <h2 class="text-primary special-item-title">Strawberry Mojito</h2>
+                  <p class="special-item-text">Strawberry Mojito bisa juga kita jadikan untuk menu pembuka saat adzan mangrib sudah berkumandang.</p>  
+                </div>
+              </div>
+              <div class="black-bg special-item">
+                <img src="img/special-06.jpg" alt="Image">
+                <div class="special-item-description">
+                  <h2 class="text-primary special-item-title">Salmon En Croute</h2>
+                  <p class="special-item-text">Salmonnya bener-bener fresh dan well cooked, spinachnya creamy dan so tasty, cocok untuk menemani hari kita...</p>  
+                </div>
+              </div>                      
+            </div>            
+          </div>
+          <!-- end Special Items Page -->
+
+          <!-- Site Header -->
+          <div id="contact" class="nav-b">
+            <i class="fas fa-comments fa-2x logo"></i>
+            <h1 class="name">Contact</h1>
+          </div>
+          <!-- Contact Page -->
+          <div class="page-content">
+            <div class="black-bg contact-text-container">
+              <h2 class="text-primary">Contact Afdhol</h2>
+              <p>Afdhol Cafe If you see anything that looks unusual... you contact us, Thank you for your willingness to contact us.</p>
+            </div>
+            <div class="black-bg contact-form-container">
+              <form action="https://formspree.io/f/mjvzzzqj" method="POST" id="contact-form">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" placeholder="Name" required="" />
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control" placeholder="Email" required="" />
+                </div>        
+                <div class="form-group mb-30">
+                  <textarea rows="6" name="message" class="form-control" placeholder="Message" required=""></textarea>
+                </div>        
+                <div>
+                  <button type="submit" class="btn-primary">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- end Contact Page -->
+        </main>
+      </div>    
+    </div>
+    <footer class="site-footer">
+      <p class="black-bg footer-text">Copyright 2020 Afdhol Cafe
+      
+      | Design: <a href="https://www.instagram.com/yahymhmmd/" class="footer-link" rel="sponsored" target="_parent">yahymhmmd</a></p>
+    </footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
